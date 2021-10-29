@@ -18,7 +18,7 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
 	.featured-list #grid .thumb {
-	  width: 50%;
+	  width: 60%;
 	}
 	.carousel-caption {
 	  top: 5px;
@@ -31,17 +31,48 @@
 	}
 	
 	.btn.btn-learn {
-	  font-size: 10px;
+	  font-size: 16px;
 	  font-weight: 500;
 	  padding: 5px 7px;
 	  text-align: center;
 	  text-transform: uppercase;
 	}
+	.btn.btn-support {
+		font-size: 16px;
+		font-weight: 500;
+		padding: 5px 7px;
+		text-align: center;
+		text-transform: uppercase;
+	  }
+	  .btn.btn-maturidade {
+		font-size: 16px;
+		font-weight: 500;
+		padding: 5px 7px;
+		text-align: center;
+		text-transform: uppercase;
+	  }
+	  .btn.btn-excelencia {
+		font-size: 16px;
+		font-weight: 500;
+		padding: 5px 7px;
+		text-align: center;
+		text-transform: uppercase;
+	  }
 	
 	.about-text{
 		text-align:center;
+		padding: 0 20px 0 20px
 	}
-	
+	.owners {
+		display:flex;
+		flex-direction: column;
+	}
+	.blog-board {
+		display:flex;
+		flex-direction: column;
+	}
+
+
 	.single-feature{
 		text-align:center;
 	}
@@ -53,7 +84,12 @@
 	.feature-text h4{
 		line-height:25px;
 	}
-	
+	.about-image{
+		max-width: 100%;
+		display:flex;
+		justify-content: center;
+		align-items:center
+	}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
